@@ -4,7 +4,7 @@ export function createGlobalState<T>(
   queryKey: unknown,
   initialData: T | null = null,
 ) {
-  return function () {
+  return function  () {
     const queryClient = useQueryClient();
 
     const { data } = useQuery({

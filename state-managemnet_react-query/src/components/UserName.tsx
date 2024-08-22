@@ -1,6 +1,6 @@
 import { useUserState } from "../manageState/user";
 
-export default function UserCard() {
+export default function UserName() {
     const { data } = useUserState();
     return (
       <>
